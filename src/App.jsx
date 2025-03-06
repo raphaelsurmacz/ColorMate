@@ -1,18 +1,19 @@
 import { useState } from 'react'
-import { BrowserRoute, Route, Routes } from 'react-route-dom';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
+import Header from './Components/Header';
 
 function App() {
 
     return (
-        <BrowserRoute>
+        <BrowserRouter>
+            
+            <Header />
+
             <Routes>
                 <Route path='/' element={<Home />} />
             </Routes>
-
-        </BrowserRoute>
+        </BrowserRouter>
     );
-
 };
 export default App;
