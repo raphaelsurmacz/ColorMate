@@ -1,12 +1,52 @@
 .header {
-    display: grid;
-    grid-template-areas: "logo nav";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(44, 44, 44);
+}
+
+.colormate__logo {
+    width: 50px;
 }
 
 .header__nav {
-    grid-area: nav;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
+    display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.header__nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav-list li a {
+    color: azure;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rgb(44, 44, 44);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header__nav-list li a:hover{
+    background-color: rgb(68, 68, 68);
+}
+
+.header__logout {
+    margin-left: 1rem;
+    background-color: rgb(213, 60, 60);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header__logout:hover {
+    background-color: rgb(237, 69, 69);
 }
