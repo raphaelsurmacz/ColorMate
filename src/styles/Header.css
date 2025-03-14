@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: rgb(44, 44, 44);
+    background-color: #243B55;
 }
 
 .colormate__logo {
@@ -34,12 +34,12 @@
 }
 
 .header__nav-list li a:hover{
-    background-color: rgb(68, 68, 68);
+    background-color: #8FAADC;
 }
 
 .header__logout {
     margin-left: 1rem;
-    background-color: rgb(213, 60, 60);
+    background-color: #A09BE7;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -48,5 +48,5 @@
 }
 
 .header__logout:hover {
-    background-color: rgb(237, 69, 69);
+    background-color: #a7a2e6;
 }
