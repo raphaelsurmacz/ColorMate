@@ -1,9 +1,9 @@
 .main {
     background: linear-gradient(to bottom, #243B55, #435c8f);
-    display: flex;
+    display: grid;
     align-items: top;
-    justify-content: center;
-    text-align: center;
+    justify-content: top;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
 }
@@ -11,4 +11,6 @@
 .title__body {
     font-size: 4rem;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
 }
