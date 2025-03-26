@@ -16,7 +16,7 @@ function Upload() {
         <div className="upload-container">
             <label className="upload-box">
                 <input type="file" accept='image/*' onChange={handleImageChange} />
-                <span className="upload-text"> Send </span>
+                <span className="upload-text"> Send image </span>
             </label>
 
             {image && (
